@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.5"
+    android:background="@drawable/backgroundmon"
+    tools:context="com.example.harlemknights.TimeRush.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_x="232dp"
+        android:layout_y="80dp"
+        android:text="Rush"
+        android:textColor="#ff0000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/welcomeToText"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_x="146dp"
+        android:layout_y="84dp"
+        android:text="Time "
+        android:textColor="#ff0000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ReflexButton"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_x="147dp"
+        android:layout_y="288dp"
+        android:text="Reflex Mode" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="152dp"
+        android:layout_y="398dp"
+        android:text="How To Play" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_x="156dp"
+        android:layout_y="171dp"
+        android:text="TImer Mode"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+</AbsoluteLayout>

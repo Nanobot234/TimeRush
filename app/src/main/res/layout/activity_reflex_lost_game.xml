@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.8"
+    android:background="@drawable/redmonster"
+    tools:context="com.example.harlemknights.TimeRush.ReflexLostGameActivity">
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="129dp"
+        android:layout_y="358dp"
+        android:text="Play Again" />
+
+    <Button
+        android:id="@+id/main2"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_x="129dp"
+        android:layout_y="458dp"
+        android:text="Main Menu" />
+
+    <TextView
+        android:id="@+id/reflexPlayAgain"
+        android:layout_width="133dp"
+        android:layout_height="64dp"
+        android:layout_x="114dp"
+        android:layout_y="53dp"
+        android:text="TextView"
+        android:textColor="#ffff00"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+         <TextView
+        android:id="@+id/Comment2"
+        android:layout_width="125dp"
+        android:layout_height="84dp"
+        android:layout_x="112dp"
+        android:layout_y="213dp"
+        android:alpha="1"
+        android:text="TextView"
+        android:textColor="#ffff00"
+        android:textSize="20dp" />
+</AbsoluteLayout>

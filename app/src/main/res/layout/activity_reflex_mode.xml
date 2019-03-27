@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reflexlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.harlemknights.TimeRush.ReflexModeActivity">
+
+    <Button
+        android:id="@+id/reflexbutton"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_above="@+id/badbutton"
+        android:layout_marginBottom="52dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_toLeftOf="@+id/badbutton"
+        android:layout_toStartOf="@+id/badbutton"
+        android:layout_x="59dp"
+        android:layout_y="336dp"
+        android:background="@drawable/reflexadd"
+        android:textColor="#ff0000" />
+
+    <TextView
+        android:id="@+id/reflexView"
+        android:layout_width="154dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="35dp"
+        android:layout_x="40dp"
+        android:layout_y="18dp"
+        android:text="0"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/goodbutton"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignLeft="@+id/reflexView"
+        android:layout_alignStart="@+id/reflexView"
+        android:layout_alignTop="@+id/badbutton"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="40dp"
+        android:layout_x="51dp"
+        android:layout_y="113dp"
+        android:background="@drawable/nicemonster"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <Button
+        android:id="@+id/badbutton"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="147dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_x="211dp"
+        android:layout_y="263dp"
+        android:background="@drawable/badmonster"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="166dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/TitleText"
+        android:layout_alignEnd="@+id/TitleText" />
+
+    <TextView
+        android:id="@+id/TitleText"
+        android:layout_width="154dp"
+        android:layout_height="44dp"
+        android:layout_alignBaseline="@+id/reflexView"
+        android:layout_alignBottom="@+id/reflexView"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_toEndOf="@+id/reflexView"
+        android:layout_toRightOf="@+id/reflexView"
+        android:text="Reflex Mode"
+        android:textAlignment="center"
+        android:textColor="#ff0000"
+        android:textSize="22dp" />
+
+</RelativeLayout>
