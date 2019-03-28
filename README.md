@@ -1,3 +1,3 @@
 # TimeRush
 
-Time Rush Code
+TImeRush Mobile App Code
