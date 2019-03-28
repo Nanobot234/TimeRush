@@ -1,0 +1,3 @@
+# TimeRush
+
+Time Rush Code
